@@ -1,5 +1,5 @@
 {
-  "name": "componentmash-2020",
+  "name": "@rskaggs/componentmash-2020",
   "version": "1.0.0",
   "description": "A demo component library for Code Mash",
   "main": "src/components/index.js",
