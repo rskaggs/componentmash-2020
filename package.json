@@ -2,9 +2,10 @@
   "name": "@rskaggs/componentmash-2020",
   "version": "1.0.0",
   "description": "A demo component library for Code Mash",
-  "main": "src/components/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "start": "start-storybook -p 9001"
+    "start": "start-storybook -p 9001",
+    "bundle": "rollup --config"
   },
   "repository": {
     "type": "git",
@@ -25,9 +26,15 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
     "@storybook/addon-a11y": "^5.2.8",
     "@storybook/addon-docs": "^5.2.8",
     "@storybook/react": "^5.2.8",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "rollup": "^1.27.14",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
