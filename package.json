@@ -1,0 +1,33 @@
+{
+  "name": "componentmash-2020",
+  "version": "1.0.0",
+  "description": "A demo component library for Code Mash",
+  "main": "src/components/index.js",
+  "scripts": {
+    "start": "start-storybook -p 9001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rskaggs/componentmash-2020.git"
+  },
+  "author": "Russell Skaggs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rskaggs/componentmash-2020/issues"
+  },
+  "homepage": "https://github.com/rskaggs/componentmash-2020#readme",
+  "dependencies": {
+    "@storybook/addon-knobs": "^5.2.8",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@storybook/addon-a11y": "^5.2.8",
+    "@storybook/addon-docs": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "babel-loader": "^8.0.6"
+  }
+}
